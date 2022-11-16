@@ -24,11 +24,11 @@ The level of Raspberry Pi and STM32 logic system is 3.3V, users need to pull the
 ### STM32 Hardware Connection<br> 
  * Hardware Connection :STM32F103 -> Dual-CH CAN HAT<br> 
  *       CAN0_H -> CAN1_H              CAN0_L -> CAN1_L<br> 
- *          5V  -> 5V                		PB15 -> MOSI<br> 
+ *          5V  -> 5V                	PB15 -> MOSI<br> 
  *          GND -> GND               	PB14 -> MISO<br> 
- *          PB3 -> INT0             		PB13 -> SCK<br> 
- *          PB4 -> INT1            		PB12 -> CE0<br> 
- *                            			PB5  -> CE1<br> 
+ *          PB3 -> INT0             	PB13 -> SCK<br> 
+ *          PB4 -> INT1            	PB12 -> CE0<br> 
+ *                            		PB5  -> CE1<br> 
 ### Raspberry Pi Interface Definition<br>
 The pin definitions for connecting Dual CAN HAT to Raspberry Pi are shown in Table 2-1 below.<br>
 |Function Pin|Raspberry Pi Connector （BCM）|Raspberry Pi Connector（WPI）|Description|
